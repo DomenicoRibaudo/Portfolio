@@ -12,7 +12,7 @@ body {
     background-image: url('https://images6.alphacoders.com/133/1338694.png');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #E6E6FA;
 }
 
 .container {
@@ -28,16 +28,24 @@ header {
     border-bottom: 2px solid #ff6b6b;
     margin-bottom: 20px;
 }
+
+
+footer {
+    color: orangered; /* Cambia il colore del testo */
+    font-weight: bold;
+}
+p,
 h1,
 h2,
-h3,
-p,
-footer {
-    color: #fff; /* Cambia il colore del testo */
+h3{
+    color: white; /* Cambia il colore del testo */
+    font-weight: bold;
 }
+
 header h1 {
     margin-bottom: 10px;
     font-size: 3rem;
+
 }
 
 nav ul {
